@@ -1,0 +1,28 @@
+{
+  "name": "quick-youtube-mp3-download",
+  "version": "0.0.1",
+  "description": "Simple console app to download musics or playlists from youtube",
+  "author": "Chriptus <amcmmm13@hotmail.com> (https://github.com/chriptus13)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chriptus13/quick-youtube-mp3-download"
+  },
+  "keywords": [
+    "Music",
+    "Youtube",
+    "MP3",
+    "Playlist"
+  ],
+  "bugs": {
+    "url": "https://github.com/chriptus13/quick-youtube-mp3-download/issues"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ytdl-core": "^4.11.5",
+    "ytpl": "^2.3.0"
+  }
+}
