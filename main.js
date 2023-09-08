@@ -18,6 +18,7 @@ function sanitize(name) {
 async function main() {
     if (process.argv.length !== 3) {
         console.log(`Usage: node ${process.argv[1]} <youtubeUrl>`)
+        process.exit(2)
     }
 
     const url = new URL(process.argv[2])
